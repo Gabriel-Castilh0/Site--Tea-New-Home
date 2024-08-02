@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/*____________________________*/
+/*         HEADER             */
+/*____________________________*/
+
+header {
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../img/header.capa.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 2px solid rgb(170, 122, 248);
+
+    position: relative;
+
+}
+
+/*____________________________*/
+/*         NAVEBAR            */
+/*____________________________*/
+header nav#nav-esq {
+    width: 100%;
+    /* O menu ocupa toda a largura do header */
+    height: 60px;
+    /* Ajuste a altura conforme necessário */
+    background-color: #BF9A78;
+    /* Cor de fundo do menu */
+    display: flex;
+    /* Usar Flexbox para alinhar itens horizontalmente */
+    align-items: center;
+    /* Alinhar itens verticalmente ao centro */
+    justify-content: center;
+    /* Alinhar itens horizontalmente ao centro, se necessário */
+    position: absolute;
+    /* Posiciona a nav no topo do header */
+    top: 0;
+    /* Alinha ao topo do header */
+    border-bottom: #1be03c;
+}
+
+
+
+
+
+
+
+/*
+
+.menu-principal {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid rgb(170, 122, 248);
+    width: 100%;
+}
+
+.opcoes ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 20px;
+    padding-left: 12%;
+    font-style: italic;
+
+
+}
+
+.opcoes ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    font-style: initial;
+
+}
+
+*/
