@@ -21,27 +21,30 @@ header {
 
 }
 
-/*____________________________*/
-/*         NAVEBAR            */
-/*____________________________*/
+/*_________NAVEBAR________________*/
+
 header nav#nav-esq {
     width: 100%;
     /* O menu ocupa toda a largura do header */
     height: 60px;
     /* Ajuste a altura conforme necessário */
-    background-color: #BF9A78;
-    /* Cor de fundo do menu */
+    background-color: #BF9A78
+        /* Cor de fundo do menu */
+}
+
+/*____________MENU PRINCIPAL___________________*/
+
+header nav#nav-esq ul#menu-principal {
+
     display: flex;
     /* Usar Flexbox para alinhar itens horizontalmente */
+    flex-flow: row;
     align-items: center;
     /* Alinhar itens verticalmente ao centro */
-    justify-content: center;
-    /* Alinhar itens horizontalmente ao centro, se necessário */
-    position: absolute;
-    /* Posiciona a nav no topo do header */
-    top: 0;
-    /* Alinha ao topo do header */
-    border-bottom: #1be03c;
+    font-size: 30px;
+    padding-right: 100px;
+
+
 }
 
 
